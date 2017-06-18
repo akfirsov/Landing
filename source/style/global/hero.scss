@@ -1,0 +1,25 @@
+ .hero {
+   min-height: 59px; 
+   padding: 174px 0;
+   text-align: center;
+   color: #fff;
+   background:#ccc url("../../images/firsov.jpg")center/cover no-repeat; //center/cover растянуть по радительскому объекту
+
+   &__about {
+     font-family: $ff-main-bold;
+     font-size: 3rem;// чтобы получить rem=желаемый размер/браузерный
+     line-height: 1;
+   }
+   &__title{
+     margin-top: 0px;
+     margin-bottom: 27px;
+     font-family: $ff-main-light;
+   }
+.button--text-uppercase{
+  padding: 21px 41px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+ }
