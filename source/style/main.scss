@@ -2,6 +2,7 @@
 @import "../../node_modules/normalize.scss/normalize";
 
 
+@import "global/mixins";
 @import "global/fonts";
 @import "global/vars";
 @import "global/base";
@@ -9,7 +10,9 @@
 @import "global/sprite";
 @import "global/button";
 @import "global/hero";
-
+@import "global/about";
+@import "global/title";
+@import "global/icons";
 
 @import "sections/header";
 @import "sections/nav";
