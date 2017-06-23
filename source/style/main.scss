@@ -9,12 +9,13 @@
 @import "global/common";
 @import "global/sprite";
 @import "global/button";
-@import "global/hero";
-@import "global/about";
-@import "global/title";
 @import "global/icons";
 
+@import "sections/hero";
+@import "sections/title";
+@import "sections/about";
 @import "sections/header";
 @import "sections/nav";
+@import "sections/approach";
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 

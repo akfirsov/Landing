@@ -10,7 +10,7 @@
   transform:translateX(-50%) ;
 }
 @mixin centerer-y() {
-
+  position: absolute;
   top:50%;
   transform:translateY(-50%) ;
 }
