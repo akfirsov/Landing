@@ -2,12 +2,17 @@
   margin: auto auto 23px auto;
 }
 
+/*noinspection SassScssResolvedByNameOnly,SassScssResolvedByNameOnly*/
 .icon--like {
   @include sprite($like);
 }
+
+//noinspection SassScssResolvedByNameOnly,SassScssResolvedByNameOnly
 .icon--book {
   @include sprite($book);
 }
+
+//noinspection SassScssResolvedByNameOnly,SassScssResolvedByNameOnly
 .icon--message {
   @include sprite($message);
 }

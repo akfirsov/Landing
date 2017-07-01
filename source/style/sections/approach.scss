@@ -21,7 +21,7 @@
 
 
     .approach__text {
-      padding: 70px 90px;
+      padding: 67px 90px;
       }
     .approach__step {
       right: auto;
@@ -49,7 +49,8 @@
     padding: 70px 70px 55px 90px;
     font-size: 0.875rem;
   }
-   &__step{
+  /*noinspection SassScssResolvedByNameOnly*/
+  &__step{
      @include centerer-y();
      right: -58px;
      width: 103px;
@@ -62,9 +63,8 @@
      background-color: #de2b24 ;
      color: #ffffff;
 
-
-
-     &:before {
+    //noinspection SassScssResolvedByNameOnly
+    &:before {
        content: counter(count);
        counter-increment:count ;
        display: block;
@@ -75,6 +75,7 @@
      }
    }
 
+  //noinspection SassScssResolvedByNameOnly
   &__title{
     margin-bottom:  6px;
     font-size: 1.125rem;

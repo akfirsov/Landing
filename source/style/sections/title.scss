@@ -2,12 +2,14 @@
   margin-bottom: 65px;
   text-align: center;
 
+  //noinspection SassScssResolvedByNameOnly
   &__header{
     margin: 0;
     font-size: 2.25rem;
     font-family: $ff-main-bold;
     line-height: 1;
   }
+  //noinspection SassScssResolvedByNameOnly
   &__text{
     font-size: 1.25rem;
     font-family: $ff-main-light;
@@ -15,6 +17,7 @@
   &--with-bottom-line {
     position: relative;
 
+    /*noinspection SassScssResolvedByNameOnly*/
     &:after{
       @include centerer-x();
 

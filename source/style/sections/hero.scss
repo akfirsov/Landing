@@ -5,11 +5,13 @@
    color: #fff;
    background:#ccc url("../../images/firsov.jpg")center/cover no-repeat; //center/cover растянуть по радительскому объекту
 
+   //noinspection SassScssResolvedByNameOnly
    &__about {
      font-family: $ff-main-bold;
      font-size: 3rem;// чтобы получить rem=желаемый размер/браузерный
      line-height: 1;
    }
+   //noinspection SassScssResolvedByNameOnly
    &__title{
      margin-top: 0px;
      margin-bottom: 27px;
